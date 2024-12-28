@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 
-function Settings() {
+function Stats() {
   return (
-    <div>Settings</div>
+    <div>Stats</div>
   )
 }
 
-export default Settings
+export default Stats

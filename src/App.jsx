@@ -5,7 +5,12 @@ import Dashboard from "./components/Dashboard"; // Sidebar
 import Home from "./pages/Home"; // Main content for Home
 import Settings from "./pages/Settings"; // Main content for Settings
 import Sports from "./pages/Sports"; // Main content for Sports
+import Teams from "./pages/Teams";
 import "./index.css"
+import Matches from "./pages/Matches";
+import Players from "./pages/Players";
+import Standings from "./pages/Standings";
+import Stats from "./pages/Stats";
 
 function App() {
   return (
@@ -20,6 +25,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/sports" element={<Sports />} />
+          <Route path="/teams" element={<Teams />} />
+          <Route path="/matches" element={<Matches />} /> 
+          <Route path="/players" element={<Players />} /> 
+          <Route path="/standings" element={<Standings />} /> 
+          <Route path="/stats" element={<Stats />} /> 
         </Routes>
       </div>
     </div>

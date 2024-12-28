@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 
-function Settings() {
+function Matches() {
   return (
-    <div>Settings</div>
+    <div>Matches</div>
   )
 }
 
-export default Settings
+export default Matches

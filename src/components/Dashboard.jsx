@@ -2,8 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/pod_club_brand-removebg-preview.png";
-import { LayoutDashboard } from "lucide-react";
-import { Users, BarChart, Star, Award, HammerIcon, Gamepad, Trophy } from "lucide-react";
+import { LayoutDashboard, Users, BarChart, Star, Award, HammerIcon, Gamepad, Trophy } from "lucide-react";
 
 function Dashboard() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +29,7 @@ function Dashboard() {
         
         <li>
           <Link
-            to="/settings"
+            to="/teams"
             className="flex items-center justify-start gap-2 p-2 transition-colors duration-300 rounded-lg hover:bg-hoverClr hover:text-mainClr"
             >
             <Users className="text-lg" />       
@@ -86,7 +85,7 @@ function Dashboard() {
               
         <li>
           <Link
-            to="/settings"
+            to="/players"
             className="flex items-center justify-start gap-2 p-2 transition-colors duration-300 rounded-lg hover:bg-hoverClr hover:text-mainClr"
             >
             <Star className="text-lg" />          
@@ -96,7 +95,7 @@ function Dashboard() {
 
         <li>
           <Link
-            to="/settings"
+            to="/matches"
             className="flex items-center justify-start gap-2 p-2 transition-colors duration-300 rounded-lg hover:bg-hoverClr hover:text-mainClr"
             >
             <Gamepad className="text-lg" />          
@@ -106,7 +105,7 @@ function Dashboard() {
             
         <li>
           <Link
-            to="/settings"
+            to="/standings"
             className="flex items-center justify-start gap-2 p-2 transition-colors duration-300 rounded-lg hover:bg-hoverClr hover:text-mainClr"
           >
             <Award className="text-lg" />
@@ -116,7 +115,7 @@ function Dashboard() {
         
         <li>
           <Link
-            to="/settings"
+            to="/stats"
             className="flex items-center justify-start gap-2 p-2 transition-colors duration-300 rounded-lg hover:bg-hoverClr hover:text-mainClr"
             >
             <BarChart className="text-lg" />          
